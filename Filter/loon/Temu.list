@@ -1,0 +1,46 @@
+# domain
+DOMAIN-KEYWORD,temu
+DOMAIN-SUFFIX,temu.com
+DOMAIN,temu.com
+DOMAIN,temudebug.com
+DOMAIN-SUFFIX,kwcdn.com
+# temu.com
+IP-CIDR,20.15.0.9/32,no-resolve
+IP-CIDR,20.15.0.12/32,no-resolve
+IP-CIDR,20.15.0.24/32,no-resolve
+IP-CIDR,20.15.0.25/32,no-resolve
+IP-CIDR,20.15.0.56/32,no-resolve
+IP-CIDR,20.15.0.95/32,no-resolve
+IP-CIDR,20.15.0.158/32,no-resolve
+# locale.temu.com
+IP-CIDR,20.124.48.109/32,no-resolve
+IP-CIDR,20.121.111.193/32,no-resolve
+IP-CIDR,20.83.139.214/32,no-resolve
+IP-CIDR,20.237.10.133/32,no-resolve
+IP-CIDR,20.231.255.10/32,no-resolve
+# us.temu.com
+IP-CIDR,20.33.55.2/32,no-resolve
+IP-CIDR,20.33.59.161/32,no-resolve
+IP-CIDR,20.33.67.17/32,no-resolve
+IP-CIDR,20.33.59.7/32,no-resolve
+# us.pftk.temu.com
+IP-CIDR,20.185.74.90/32,no-resolve
+IP-CIDR,20.33.59.10/32,no-resolve
+IP-CIDR,20.33.55.27/32,no-resolve
+IP-CIDR,52.149.234.104/32,no-resolve
+# eu.pftk.temu.com
+IP-CIDR,20.93.45.131/32,no-resolve
+IP-CIDR,141.147.118.138/32,no-resolve
+IP-CIDR,20.33.40.121/32,no-resolve
+IP-CIDR,20.82.200.37/32,no-resolve
+IP-CIDR,132.145.11.84/32,no-resolve
+IP-CIDR,140.238.94.123/32,no-resolve
+IP-CIDR,130.162.161.10/32,no-resolve
+# eu.temu.com
+IP-CIDR,20.47.117.32/32,no-resolve
+IP-CIDR,20.157.119.2/32,no-resolve
+IP-CIDR,20.157.217.65/32,no-resolve
+IP-CIDR,20.157.217.118/32,no-resolve
+# de.temu.com
+IP-CIDR,20.105.12.146/32,no-resolve
+IP-CIDR,20.223.39.110/32,no-resolve

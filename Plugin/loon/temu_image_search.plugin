@@ -1,0 +1,12 @@
+#!name=Temu识图
+#!desc=Temu以图搜图, 修改请求头中的时区以及系统地区编码
+#!author=CangWeiohh
+#!homepage=https://github.com/CangWeiohh/Plugin/
+#!icon=https://aimg.kwcdn.com/upload_aimg/web/c9653751-0a91-46f1-806a-b639dd32931b.png.slim.png
+
+[Rewrite]
+^https://(?!agentseller\.temu\.com)(?:[a-zA-Z0-9-]+\.)*(temu|temudebug)\.com request-body-replace-regex "system_location":"CN" "system_location":"US" "system_locale_region":"CN" "system_locale_region":"US"
+^https://(?!agentseller\.temu\.com)(?:[a-zA-Z0-9-]+\.)*(temu|temudebug)\.com header-replace-regex x-user-info tz=Asia/Shanghai tz=America/New_York x-user-info tz=Asia%2FShanghai tz=America%2FNew_York cookie timezone=Asia/Shanghai timezone=America/New_York cookie timezone=Asia%2FShanghai timezone=America%2FNew_York
+
+[MITM]
+hostname=-agentseller.temu.com,-www.temu.com,*.temudebug.com,temudebug.com,*.temu.com,temu.com
