@@ -1,0 +1,11 @@
+#!name=问小白城市广告
+#!desc=去除问小白城市城市响应中的地区
+#!author=CangWeiohh
+#!homepage=https://github.com/CangWeiohh/Network-Rule/
+#!icon=https://weaver-images.oss-cn-beijing.aliyuncs.com/project/6751755c464a181a60d4590ff55bd369.jpg
+
+[Rewrite]
+api-bj.wenxiaobai.com response-body-json-del data.adInfo
+
+[MITM]
+hostname=api-bj.wenxiaobai.com

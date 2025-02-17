@@ -1,7 +1,7 @@
 #!name=Temu识图
 #!desc=Temu以图搜图, 修改请求头中的时区以及系统地区编码
 #!author=CangWeiohh
-#!homepage=https://github.com/CangWeiohh/Plugin/
+#!homepage=https://github.com/CangWeiohh/Network-Rule
 #!icon=https://aimg.kwcdn.com/upload_aimg/web/c9653751-0a91-46f1-806a-b639dd32931b.png.slim.png
 
 [Rewrite]
