@@ -1,0 +1,32 @@
+# 苹果分流补充
+# 苹果推送服务
+DOMAIN,push.apple.com,Apple
+# 苹果时间同步
+DOMAIN,time.apple.com,Apple
+# 苹果天气服务
+DOMAIN-KEYWORD,weather-edge.apple.com,Apple
+DOMAIN-KEYWORD,weather-adge.apple.com,Apple
+DOMAIN-SUFFIX,weather-data.apple.com,Apple
+DOMAIN-SUFFIX,weather-map.apple.com,Apple
+DOMAIN-SUFFIX,weather-analytics-events.apple.com,Apple
+# 苹果内购服务
+DOMAIN-KEYWORD,buy.itunes.apple.com,Apple
+# 苹果iCloud
+DOMAIN-KEYWORD,icloud.com,Apple
+# 苹果输入法相关服务
+DOMAIN-KEYWORD,api.smoot.apple.com,Apple
+DOMAIN-KEYWORD,api.smoot.apple.cn,Apple
+# 苹果iMessage服务
+DOMAIN,init.ess.apple.com,Apple
+# 苹果其他服务
+DOMAIN-KEYWORD,ssl.apple.com,Apple
+DOMAIN-KEYWORD,humb.apple.com,Apple
+DOMAIN,smp-device-content.apple.com,Apple
+DOMAIN-KEYWORD,api-adservices.apple.com,Apple
+DOMAIN-KEYWORD,ls.apple.com,Apple
+DOMAIN-KEYWORD,gsa.apple.com,Apple
+DOMAIN-KEYWORD,ess.apple.com,Apple
+# Testflight
+DOMAIN,beta.apple.com,全球加速
+DOMAIN,testflight.apple.com,全球加速
+DOMAIN-KEYWORD,testflight,全球加速

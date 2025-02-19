@@ -1,0 +1,65 @@
+# AnyGo
+DOMAIN,order.luckydogsoft.com,REJECT
+# 麦软
+DOMAIN-KEYWORD,mairuan,REJECT
+DOMAIN-SUFFIX,mairuan.com,REJECT
+DOMAIN-SUFFIX,mairuan.cn,REJECT
+DOMAIN-SUFFIX,mairuan.com.cn,REJECT
+DOMAIN-SUFFIX,mairuan.net,REJECT
+DOMAIN-KEYWORD,mairuanwang,REJECT
+DOMAIN-SUFFIX,mairuanwang.com,REJECT
+DOMAIN-KEYWORD,mindmanager,REJECT
+DOMAIN-SUFFIX,mindmanager.cc,REJECT
+# 思杰马克丁
+DOMAIN-KEYWORD,makeding,REJECT
+DOMAIN-SUFFIX,cjmakeding.com,REJECT
+DOMAIN-SUFFIX,makeding.com,REJECT
+# 马克监控
+DOMAIN-SUFFIX,markmonitor.com,REJECT
+DOMAIN-SUFFIX,gvt2.com,REJECT
+DOMAIN,beacons.gcp.gvt2.com,REJECT
+DOMAIN,beacons.gvt2.com,REJECT
+DOMAIN,beacons2.gvt2.com,REJECT
+DOMAIN,beacons3.gvt2.com,REJECT
+DOMAIN,beacons4.gvt2.com,REJECT
+# App Cleaner & Uninstaller
+DOMAIN,nektony.com,REJECT
+DOMAIN,download.nektony.com,REJECT
+DOMAIN-KEYWORD,nektony,REJECT
+DOMAIN,api2.amplitude.com,REJECT
+DOMAIN-SUFFIX,amplitude.com,REJECT
+DOMAIN-KEYWORD,amplitude,REJECT
+# Parallels Desktop
+DOMAIN-KEYWORD,parallels,REJECT
+DOMAIN,account.parallels.com,REJECT
+DOMAIN,download.parallels.com,REJECT
+DOMAIN,update.parallels.com,REJECT
+DOMAIN,desktop.parallels.com,REJECT
+DOMAIN,reportus.parallels.com,REJECT
+DOMAIN,toolbox.parallels.com,REJECT
+DOMAIN,myparallels.com,REJECT
+DOMAIN,my.parallels.com,REJECT
+DOMAIN,pax-manager.myparallels.com,REJECT
+DOMAIN,download.parallels.com.cdn.cloudflare.net,REJECT
+DOMAIN,update.parallels.com.cdn.cloudflare.net,REJECT
+DOMAIN,desktop.parallels.com.cdn.cloudflare.net,REJECT
+DOMAIN,www.parallels.cn,REJECT
+DOMAIN,www.parallels.com,REJECT
+DOMAIN,www.parallels.de,REJECT
+DOMAIN,www.parallels.es,REJECT
+DOMAIN,www.parallels.fr,REJECT
+DOMAIN,www.parallels.nl,REJECT
+DOMAIN,www.parallels.pt,REJECT
+DOMAIN,www.parallels.ru,REJECT
+DOMAIN,www.parallelskorea.com,REJECT
+DOMAIN,parallels.com,REJECT
+DOMAIN,parallels.cn,REJECT
+DOMAIN,parallels.de,REJECT
+DOMAIN,parallels.es,REJECT
+DOMAIN,parallels.fr,REJECT
+DOMAIN,parallels.nl,REJECT
+DOMAIN,parallels.pt,REJECT
+DOMAIN,parallels.ru,REJECT
+DOMAIN,parallelskorea.com,REJECT
+DOMAIN-KEYWORD,parallelsdesktop,REJECT
+DOMAIN-SUFFIX,parallelsdesktop.cn,REJECT
