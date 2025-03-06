@@ -1,0 +1,12 @@
+#!name=可莉资源请求头修改
+#!desc=修改请求头中User-Agent为Loon
+#!author=CangWeiohh
+#!homepage=https://github.com/CangWeiohh/Network-Rule/
+#!icon=https://raw.githubusercontent.com/luestr/IconResource/main/Other_icon/120px/KeLee.png
+
+[Rewrite]
+kelee.one header-replace User-Agent Loon/829\x20CFNetwork/1498.700.2\x20Darwin/23.6.0
+rule.kelee.one header-replace User-Agent Loon/829\x20CFNetwork/1498.700.2\x20Darwin/23.6.0
+
+[MITM]
+hostname=*.kelee.one,kelee.one
