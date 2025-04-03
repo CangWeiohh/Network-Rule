@@ -1,0 +1,11 @@
+#!name=落格X问答模型替换
+#!desc=修改请求体中的model
+#!author=CangWeiohh
+#!homepage=https://github.com/CangWeiohh/Network-Rule/
+#!icon=https://txc.gtimg.com/data/314521/2021/0312/75314428dfa675404a6d71dbb2571acb.png
+
+[Rewrite]
+api.chatai.lol request-body-replace-regex "model":"gpt-3.5-turbo" "model":"claude-3-7-sonnet" "temperature":0.90000000000000002 "temperature":0.7 "max_tokens":1500 "max_tokens":999999999
+
+[MITM]
+hostname=api.chatai.lol
