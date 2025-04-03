@@ -1,5 +1,5 @@
 #!name=落格X问答模型替换
-#!desc=修改请求体中的model
+#!desc=模型列表https://api.chatai.lol/v1/models
 #!author=CangWeiohh
 #!homepage=https://github.com/CangWeiohh/Network-Rule/
 #!icon=https://txc.gtimg.com/data/314521/2021/0312/75314428dfa675404a6d71dbb2571acb.png
