@@ -1,8 +1,8 @@
-DOMAIN, appldnld.apple.com
+#DOMAIN, appldnld.apple.com
 DOMAIN, gg.apple.com
-DOMAIN, gs.apple.com
+#DOMAIN, gs.apple.com
 DOMAIN, ig.apple.com
-DOMAIN, mesu.apple.com
+#DOMAIN, mesu.apple.com
 DOMAIN, skl.apple.com
 DOMAIN, swcdn.apple.com
 DOMAIN, swdist.apple.com
@@ -12,7 +12,7 @@ DOMAIN, swquery.apple.com
 DOMAIN, swpost.apple.com
 #DOMAIN, updates-http.cdn-apple.com
 #DOMAIN, updates.cdn-apple.com
-DOMAIN, xp.apple.com
+#DOMAIN, xp.apple.com
 DOMAIN, iadsdk.apple.com
 DOMAIN, ads.internal.unity3d.com
 DOMAIN, ads.prd.ie.internal.unity3d.com
