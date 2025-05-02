@@ -4,8 +4,11 @@
 #!homepage=https://github.com/CangWeiohh/Network-Rule/
 #!icon=https://raw.githubusercontent.com/luestr/IconResource/main/Other_icon/120px/KeLee.png
 
+[Rule]
+DOMAIN-SUFFIX,kelee.one,PROXY
+
 [Rewrite]
-^https:\/\/(?:[A-Za-z0-9-]+\.)?kelee\.one\/ header-replace User-Agent Loon/841\x20CFNetwork/1498.700.2\x20Darwin/23.6.0
+^https:\/\/(?:[A-Za-z0-9-]+\.)?kelee\.one\/ header-replace User-Agent Loon/855\x20CFNetwork/1331.0.7\x20Darwin/21.4.0
 
 [MITM]
 hostname=*.kelee.one,kelee.one
