@@ -1,3 +1,23 @@
+/*************************************
+
+项目名称：指南针定位——解锁订阅
+下载地址：https://apps.apple.com/cn/app/%E6%8C%87%E5%8D%97%E9%92%88-%E7%BB%8F%E7%BA%AC%E5%BA%A6%E5%AE%9A%E4%BD%8D%E6%B5%B7%E6%8B%94%E6%B5%8B%E9%87%8F%E4%BB%AA/id1597253813
+软件版本：1.2.8
+更新时间：2023-9-3
+
+**************************************
+
+[rewrite_local]
+
+^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/CangWeiohh/Network-Rule/main/Script/znzdw.js
+
+[mitm]
+
+hostname = buy.itunes.apple.com
+
+*************************************/
+
+
 var anni = {};
 var anni01 = JSON.parse(typeof $response != "undefined" && $response.body || null);
 var headers = {};
