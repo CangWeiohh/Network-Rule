@@ -1,0 +1,11 @@
+#!name=MuMuPro解锁
+#!desc=M1芯片MuMu Pro安卓模拟器解锁
+#!author=CangWeiohh
+#!homepage=https://github.com/CangWeiohh/Network-Rule/
+#!icon=https://mumu.163.com/favicon.ico
+
+[Script]
+http-response ^https:\/\/api-pro\.mumu\.163\.com\/api\/v1\/user\/info* script-path=https://raw.githubusercontent.com/CangWeiohh/Network-Rule/main/Script/mumu.js, requires-body=true, timeout=60, tag=mumu
+
+[Mitm]
+hostname=api-pro.mumu.163.com
