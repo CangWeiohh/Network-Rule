@@ -1,0 +1,11 @@
+#!name=屏蔽哪吒汽车APP更新提醒
+#!desc=https://appapi-pki.chehezhi.cn:18443/hznz/sys_managementVersion/ios/selectVersion
+#!author=CangWeiohh
+#!homepage=https://github.com/CangWeiohh/Network-Rule/
+#!icon=https://new-official-website-prod.oss-cn-hangzhou.aliyuncs.com/cmsstatic/static/images/favicon.ico
+
+[Script]
+http-response ^https:\/\/appapi-pki\.chehezhi\.cn:18443\/hznz\/sys_managementVersion\/ios\/selectVersion* script-path=https://raw.githubusercontent.com/CangWeiohh/Network-Rule/main/Script/neta_version.js, requires-body=true, timeout=60, tag=neta_version
+
+[Mitm]
+hostname=appapi-pki.chehezhi.cn
