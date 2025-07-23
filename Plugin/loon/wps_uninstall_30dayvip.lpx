@@ -1,0 +1,11 @@
+#!name=WPS卸载向导领30会员
+#!desc=修改请求头中User-Agent为WPS客户端
+#!author=CangWeiohh
+#!homepage=https://github.com/CangWeiohh/Network-Rule/
+#!icon=https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/WPS.png
+
+[Rewrite]
+^https://personal-act\.wps\.cn/(rubik-service/project/deploy\?position=|application/spa/)wps_uninstall_30dayvip$ User-Agent Mozilla/5.0\x20(Windows\x20NT\x2010.0;\x20WOW64)\x20AppleWebKit/537.36\x20(KHTML,\x20like\x20Gecko)\x20Chrome/104.0.5112.102\x20Safari/537.36\x20WpsOfficeApp/12.1.0.21915\x20(per,windows)
+
+[MITM]
+hostname=personal-act.wps.cn
