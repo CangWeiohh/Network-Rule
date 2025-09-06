@@ -1,0 +1,9 @@
+.lsr意为Loon Shunt Rules的缩写，即Loon分流规则。
+
+.lpx意为Loon Plugin Extension的缩写，即Loon插件扩展。
+
+.ltx意为Loon Task Extension的缩写，即Loon任务扩展。
+
+.lcf意为Loon Configuration File的缩写，即Loon配置文件。
+
+.jq是复写使用的JQLang命令文件，多行带注释的JQ命令写入文件后使用此文件扩展名。
