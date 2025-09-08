@@ -1,15 +1,15 @@
 #!name=落格X问答模型替换
 #!desc=修改请求体中的model为gpt-4.1
-#!openUrl=https://api.chatai.lol/v1/models
+#!openUrl=https://api.chatai.best/v1/models
 #!author=CangWeiohh
 #!homepage=https://github.com/CangWeiohh/Network-Rule/
 #!icon=https://txc.gtimg.com/data/314521/2021/0312/75314428dfa675404a6d71dbb2571acb.png
 
 [Rule]
-DOMAIN,api.chatai.lol,PROXY
+DOMAIN,api.chatai.best,PROXY
 
 [Rewrite]
-^https:\/\/api\.chatai\.lol\/v1\/ime\/completions request-body-replace-regex "content":"翻译 "content":"仅输出翻译 "model":"gpt-3.5-turbo" "model":"gpt-4.1" "temperature":0.90000000000000002 "temperature":0.7 "max_tokens":1500 "max_tokens":999999999
+^https:\/\/api\.chatai\.best\/v1\/ime\/completions request-body-replace-regex "content":"翻译 "content":"仅输出翻译 "model":"gpt-3.5-turbo" "model":"gpt-4.1" "temperature":0.90000000000000002 "temperature":0.7 "max_tokens":1500 "max_tokens":999999999
 
 [MITM]
-hostname=api.chatai.lol
+hostname=api.chatai.best
