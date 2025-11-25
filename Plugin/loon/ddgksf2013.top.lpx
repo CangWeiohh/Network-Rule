@@ -1,0 +1,14 @@
+#!name=墨鱼资源请求头修改
+#!desc=修改请求头中User-Agent为Quantumult X
+#!author=CangWeiohh
+#!homepage=https://github.com/CangWeiohh/Network-Rule/
+#!icon=https://www.google.com/s2/favicons?domain=https://github.com/ddgksf2013&sz=64
+
+[Rule]
+DOMAIN-SUFFIX,ddgksf2013.top,PROXY
+
+[Rewrite]
+^https:\/\/ddgksf2013\.top\/ header-replace User-Agent Quantumult%20X/1.5.4\x20(iPhone13,2;\x20iOS\x2015.4.1)
+
+[MITM]
+hostname=ddgksf2013.top
