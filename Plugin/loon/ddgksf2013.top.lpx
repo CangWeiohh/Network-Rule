@@ -2,7 +2,7 @@
 #!desc=修改请求头中User-Agent为Quantumult X
 #!author=CangWeiohh
 #!homepage=https://github.com/CangWeiohh/Network-Rule/
-#!icon=https://www.google.com/s2/favicons?domain=https://github.com/ddgksf2013&sz=64
+#!icon=https://avatars.githubusercontent.com/u/116851128?v=4
 
 [Rule]
 DOMAIN-SUFFIX,ddgksf2013.top,PROXY
