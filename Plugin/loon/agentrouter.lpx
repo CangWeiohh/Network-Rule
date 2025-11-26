@@ -1,0 +1,13 @@
+#!name=Agent Router请求头修改
+#!desc=修改请求头中User-Agent为claude-cli/2.0.14 (external, cli)
+#!author=CangWeiohh
+#!homepage=https://github.com/CangWeiohh/Network-Rule/
+
+[Rule]
+DOMAIN-SUFFIX,agentrouter.org,PROXY
+
+[Rewrite]
+^https:\/\/agentrouter\.org\/ header-replace User-Agent claude-cli/2.0.14\x20(external,\x20cli)
+
+[MITM]
+hostname=agentrouter.org
