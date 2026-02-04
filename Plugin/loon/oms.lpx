@@ -1,0 +1,12 @@
+#!name=和作社请求头修改
+#!desc=修改请求头中的app版本号
+#!openUrl=https://hzwb.it.chinamobile.com/app_download/
+#!author=CangWeiohh
+#!homepage=https://github.com/CangWeiohh/Network-Rule/
+#!icon=https://hzwb.it.chinamobile.com/app_download/IOS/image57x57.png
+
+[Rewrite]
+^https:\/\/hzwb\.it\.chinamobile\.com\/oms\/* header-replace omsVersion 1.4.10 version 1.4.10 user-agent oms/1.4.10\x20(iPhone;\x20iOS\x2018.4.1;\x20Scale/3.00)
+
+[MITM]
+hostname=hzwb.it.chinamobile.com
