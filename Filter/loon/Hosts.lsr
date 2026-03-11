@@ -1,0 +1,186 @@
+# Corel
+DOMAIN,iws.corel.com
+DOMAIN,mc.corel.com
+DOMAIN,apps.corel.com
+DOMAIN,deploy.akamaitechnologies.com
+DOMAIN,compute-1.amazonaws.com
+DOMAIN,origin-mc.corel.com
+DOMAIN,ipm.corel.com
+DOMAIN,dev1.ipm.corel.public.corel.net
+DOMAIN,tsccloud.cloudapp.net
+DOMAIN,2.18.12.147
+DOMAIN,googletagmanager.com
+DOMAIN,corelstore.com
+DOMAIN,www.corelstore.com
+DOMAIN,sws.corel.com
+DOMAIN,dam.corel.com
+DOMAIN,coreldrawchina.com
+DOMAIN,xia.coreldrawchina.com
+DOMAIN,www.coreldrawchina.com
+
+# 会声会影
+DOMAIN,huishenghuiying.com.cn
+DOMAIN,www.huishenghuiying.com.cn
+DOMAIN,xia.huishenghuiying.com.cn
+
+# BetterTouchTool
+DOMAIN,bettertouchtool.net
+DOMAIN,updates.bettertouchtool.net
+
+# DaisyDisk
+DOMAIN,daisydiskapp.com
+
+# BetterTouchTool
+DOMAIN,folivora.ai
+DOMAIN,www.folivora.ai
+DOMAIN,updates.boastr.net
+DOMAIN,updates.folivora.ai
+
+# Macs Fan Control
+DOMAIN,crystalidea.com
+DOMAIN,www.crystalidea.com
+DOMAIN,v3pro.crystalidea.com
+
+# Mountain Duck
+DOMAIN,version.mountainduck.io
+DOMAIN,folivora.ai
+DOMAIN,www.folivora.ai
+DOMAIN,updates.boastr.net
+DOMAIN,updates.folivora.ai
+DOMAIN,crystalidea.com
+DOMAIN,www.crystalidea.com
+DOMAIN,v3pro.crystalidea.com
+
+# Art Text
+DOMAIN,text.design
+DOMAIN,www.belightsoft.com
+
+# Topaz DeNoise AI
+DOMAIN,topazlabs.com
+DOMAIN,auth.topazlabs.com
+DOMAIN,et.topazlabs.com
+
+# Docker Desktop
+DOMAIN,kubernetes.docker.internal
+
+# SublimeText
+DOMAIN,sublimetext.com
+DOMAIN,www.sublimetext.com
+DOMAIN,license.sublimehq.com
+
+# OneDrive
+13.107.42.13 onedrive.live.com
+13.104.208.160 skyapi.onedrive.live.com
+
+# CleanMymac
+DOMAIN,mycleanmymac.com
+DOMAIN,www.mycleanmymac.com
+DOMAIN,xia.mycleanmymac.com
+
+# XMind
+DOMAIN,www.xmind.cn
+DOMAIN,xmindchina.cn
+DOMAIN,www.xmindchina.cn
+DOMAIN,xia.xmindchina.cn
+DOMAIN,www.xmind.net
+DOMAIN,xmindchina.net
+DOMAIN,www.xmindchina.net
+DOMAIN,xia.xmindchina.net
+
+# 百度网盘
+DOMAIN,update.pan.baidu.com
+
+# App Cleaner & Uninstaller
+DOMAIN,nektony.com
+DOMAIN,download.nektony.com
+DOMAIN,api2.amplitude.com
+DOMAIN,amplitude.com
+
+# Hopper Disassembler
+DOMAIN,hopperapp.com
+DOMAIN,www.hopperapp.com
+
+# Wins
+DOMAIN,wins.cool
+
+# HitPaw
+DOMAIN,update.hitpaw.com
+
+# Tuxera
+DOMAIN,download.tuxera.com
+
+# Postman
+DOMAIN,dl.pstmn.io
+
+# Slidepad
+DOMAIN,slidepad.app
+
+# Proxyman
+DOMAIN,proxyman.io
+DOMAIN,proxyman.com
+
+# AnyGo
+DOMAIN,order.luckydogsoft.com
+
+# Screen Studio
+DOMAIN,screen.studio
+DOMAIN,api.lemonsqueezy.com
+
+# Paddle
+DOMAIN,paddle.com
+
+# SSH Config Editor
+DOMAIN,hejki.org
+
+# Chrome
+DOMAIN,update.googleapis.com
+
+# Beyond Compare 文件比较
+DOMAIN,beyondcompare.cc
+DOMAIN,www.beyondcompare.cc
+DOMAIN,xia.beyondcompare.cc
+
+# NTFS for mac
+DOMAIN,www.ntfsformac.cc
+DOMAIN,ntfsformac.cn
+DOMAIN,www.ntfsformac.cn
+DOMAIN,xia.ntfsformac.cn
+
+# XShell
+DOMAIN,xshellcn.com
+DOMAIN,www.xshellcn.com
+DOMAIN,xia.xshellcn.com
+
+# PDF Expert
+DOMAIN,pdfexpert.cc
+DOMAIN,www.pdfexpert.cc
+DOMAIN,xiazai.pdfexpert.cc
+
+# 思杰马克丁代理
+DOMAIN,makeding.com
+DOMAIN,www.makeding.com
+DOMAIN,cjmakeding.com
+DOMAIN,vm.makeding.com
+DOMAIN,4009997658.com
+DOMAIN,www.4009997658.com
+
+# 麦软
+DOMAIN,mairuan.com
+DOMAIN,www.mairuan.com
+DOMAIN,xia.mairuan.com
+DOMAIN,mairuanwang.com
+DOMAIN,www.mairuanwang.com
+DOMAIN,mairuan.cn
+DOMAIN,mairuan.net
+DOMAIN,mairuan.com.cn
+DOMAIN,hypersnap.mairuan.com
+DOMAIN,mindmanager.cc
+DOMAIN,www.mindmanager.cc
+DOMAIN,xia.mindmanager.cc
+
+#  Mixpanel数据 Sentry分析错误追踪
+DOMAIN,api.mixpanel.com
+DOMAIN,o4507661992263680.ingest.de.sentry.io
+
+# Fiddler
+DOMAIN,api.getfiddler.com
