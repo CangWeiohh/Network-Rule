@@ -133,7 +133,7 @@ DOMAIN,paddle.com
 DOMAIN,hejki.org
 
 # Chrome
-DOMAIN,update.googleapis.com
+#DOMAIN,update.googleapis.com
 
 # Beyond Compare 文件比较
 DOMAIN,beyondcompare.cc
