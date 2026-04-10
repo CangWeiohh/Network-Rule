@@ -1,5 +1,3 @@
-# AnyGo
-DOMAIN,order.luckydogsoft.com
 # 麦软
 DOMAIN-KEYWORD,mairuan
 DOMAIN-SUFFIX,mairuan.com
@@ -14,6 +12,8 @@ DOMAIN-SUFFIX,mindmanager.cc
 DOMAIN-KEYWORD,makeding
 DOMAIN-SUFFIX,cjmakeding.com
 DOMAIN-SUFFIX,makeding.com
+DOMAIN,4009997658.com
+DOMAIN,www.4009997658.com
 # 马克监控
 DOMAIN-SUFFIX,markmonitor.com
 DOMAIN-SUFFIX,gvt2.com
@@ -22,44 +22,3 @@ DOMAIN,beacons.gvt2.com
 DOMAIN,beacons2.gvt2.com
 DOMAIN,beacons3.gvt2.com
 DOMAIN,beacons4.gvt2.com
-# App Cleaner & Uninstaller
-DOMAIN,nektony.com
-DOMAIN,download.nektony.com
-DOMAIN-KEYWORD,nektony
-DOMAIN,api2.amplitude.com
-DOMAIN-SUFFIX,amplitude.com
-DOMAIN-KEYWORD,amplitude
-# Parallels Desktop
-DOMAIN-KEYWORD,parallels
-DOMAIN,account.parallels.com
-DOMAIN,download.parallels.com
-DOMAIN,update.parallels.com
-DOMAIN,desktop.parallels.com
-DOMAIN,reportus.parallels.com
-DOMAIN,toolbox.parallels.com
-DOMAIN,myparallels.com
-DOMAIN,my.parallels.com
-DOMAIN,pax-manager.myparallels.com
-DOMAIN,download.parallels.com.cdn.cloudflare.net
-DOMAIN,update.parallels.com.cdn.cloudflare.net
-DOMAIN,desktop.parallels.com.cdn.cloudflare.net
-DOMAIN,www.parallels.cn
-DOMAIN,www.parallels.com
-DOMAIN,www.parallels.de
-DOMAIN,www.parallels.es
-DOMAIN,www.parallels.fr
-DOMAIN,www.parallels.nl
-DOMAIN,www.parallels.pt
-DOMAIN,www.parallels.ru
-DOMAIN,www.parallelskorea.com
-DOMAIN,parallels.com
-DOMAIN,parallels.cn
-DOMAIN,parallels.de
-DOMAIN,parallels.es
-DOMAIN,parallels.fr
-DOMAIN,parallels.nl
-DOMAIN,parallels.pt
-DOMAIN,parallels.ru
-DOMAIN,parallelskorea.com
-DOMAIN-KEYWORD,parallelsdesktop
-DOMAIN-SUFFIX,parallelsdesktop.cn

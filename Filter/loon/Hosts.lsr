@@ -119,6 +119,41 @@ DOMAIN,slidepad.app
 DOMAIN,proxyman.io
 DOMAIN,proxyman.com
 
+# Parallels Desktop
+DOMAIN-KEYWORD,parallels
+DOMAIN,account.parallels.com
+DOMAIN,download.parallels.com
+DOMAIN,update.parallels.com
+DOMAIN,desktop.parallels.com
+DOMAIN,reportus.parallels.com
+DOMAIN,toolbox.parallels.com
+DOMAIN,myparallels.com
+DOMAIN,my.parallels.com
+DOMAIN,pax-manager.myparallels.com
+DOMAIN,download.parallels.com.cdn.cloudflare.net
+DOMAIN,update.parallels.com.cdn.cloudflare.net
+DOMAIN,desktop.parallels.com.cdn.cloudflare.net
+DOMAIN,www.parallels.cn
+DOMAIN,www.parallels.com
+DOMAIN,www.parallels.de
+DOMAIN,www.parallels.es
+DOMAIN,www.parallels.fr
+DOMAIN,www.parallels.nl
+DOMAIN,www.parallels.pt
+DOMAIN,www.parallels.ru
+DOMAIN,www.parallelskorea.com
+DOMAIN,parallels.com
+DOMAIN,parallels.cn
+DOMAIN,parallels.de
+DOMAIN,parallels.es
+DOMAIN,parallels.fr
+DOMAIN,parallels.nl
+DOMAIN,parallels.pt
+DOMAIN,parallels.ru
+DOMAIN,parallelskorea.com
+DOMAIN-KEYWORD,parallelsdesktop
+DOMAIN-SUFFIX,parallelsdesktop.cn
+
 # AnyGo
 DOMAIN,order.luckydogsoft.com
 
@@ -156,31 +191,8 @@ DOMAIN,pdfexpert.cc
 DOMAIN,www.pdfexpert.cc
 DOMAIN,xiazai.pdfexpert.cc
 
-# 思杰马克丁代理
-DOMAIN,makeding.com
-DOMAIN,www.makeding.com
-DOMAIN,cjmakeding.com
-DOMAIN,vm.makeding.com
-DOMAIN,4009997658.com
-DOMAIN,www.4009997658.com
-
-# 麦软
-DOMAIN,mairuan.com
-DOMAIN,www.mairuan.com
-DOMAIN,xia.mairuan.com
-DOMAIN,mairuanwang.com
-DOMAIN,www.mairuanwang.com
-DOMAIN,mairuan.cn
-DOMAIN,mairuan.net
-DOMAIN,mairuan.com.cn
-DOMAIN,hypersnap.mairuan.com
-DOMAIN,mindmanager.cc
-DOMAIN,www.mindmanager.cc
-DOMAIN,xia.mindmanager.cc
-
-#  Mixpanel数据 Sentry分析错误追踪
-DOMAIN,api.mixpanel.com
-DOMAIN,o4507661992263680.ingest.de.sentry.io
-
 # Fiddler
 DOMAIN,api.getfiddler.com
+
+# Typora
+DOMAIN,store.typora.io
