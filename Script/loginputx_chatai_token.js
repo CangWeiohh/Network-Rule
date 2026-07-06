@@ -4,15 +4,23 @@ let auth =
   headers.Authorization ||
   headers.authorization;
 
-if (!auth) $done({});
+if (!auth) {
+  $done({});
+  return;
+}
 
+// 去掉 Bearer
 const token = auth.replace(/^Bearer\s+/i, "");
 
-$notification.post(
-  "Chatai Token",
-  "长按复制",
-  token
-);
+// ====== Bark 推送（替代通知 + 剪贴板）======
+const url =
+  "https://api.day.app/wpgnnhHjPuze3cscmxSFyU/自动复制推送内容到剪切板?autoCopy=1&copy=" +
+  encodeURIComponent(token);
+
+$httpClient.get(url);
+
+// ====== Loon 原生通知（已禁用）======
+// $notification.post("Chatai Token", "已获取", token);
 
 console.log(token);
 
