@@ -1,0 +1,15 @@
+#!name=落格AI问答Token获取
+#!desc=落格AI问答Token获取
+#!openUrl=https://api.chatai.best/v1/models
+#!author=CangWeiohh
+#!homepage=https://github.com/CangWeiohh/Network-Rule/
+#!icon=https://txc.gtimg.com/data/314521/2021/0312/75314428dfa675404a6d71dbb2571acb.png
+
+[Rule]
+DOMAIN,api.chatai.best,PROXY
+
+[Script]
+http-request ^https:\/\/api\.chatai\.best\/v1\/ime\/completions script-path=https://raw.githubusercontent.com/CangWeiohh/Network-Rule/main/Script/loginputx_chatai_token.js,tag=落格AI问答Token,enable=true
+
+[MITM]
+hostname = api.chatai.best
