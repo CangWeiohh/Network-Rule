@@ -4,21 +4,16 @@ let auth =
   headers.Authorization ||
   headers.authorization;
 
-if (!auth) {
-  $done({});
-  return;
-}
+if (!auth) $done({});
 
-// 去掉 Bearer
 const token = auth.replace(/^Bearer\s+/i, "");
-
-// ✅ 只做两件事：复制 + 通知
-$clipboard = token;
 
 $notification.post(
   "Chatai Token",
-  "已复制到剪贴板",
+  "长按复制",
   token
 );
+
+console.log(token);
 
 $done({});
