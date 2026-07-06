@@ -1,5 +1,5 @@
-#!name=落格X问答模型替换
-#!desc=修改请求体中的model为gpt5.5
+#!name=落格AI问答
+#!desc=修改请求体中的model为gpt5.5, 获取token
 #!openUrl=https://api.chatai.best/v1/models
 #!author=CangWeiohh
 #!homepage=https://github.com/CangWeiohh/Network-Rule/
