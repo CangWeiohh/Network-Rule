@@ -9,7 +9,7 @@
 DOMAIN,api.chatai.best,PROXY
 
 [Script]
-http-request ^https:\/\/api\.chatai\.best\/v1\/ime\/completions script-path=https://raw.githubusercontent.com/CangWeiohh/Network-Rule/main/Script/loginputx_chatai_token.js,requires-body=false,timeout=10,tag=落格AI问答Token,enable=true
+http-request ^https:\/\/api\.chatai\.best\/v1\/ime\/completions script-path=https://raw.githubusercontent.com/CangWeiohh/Network-Rule/main/Script/loginputx_chatai_token.js,enable=true
 
 [MITM]
 hostname=api.chatai.best
