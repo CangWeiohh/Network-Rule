@@ -1,15 +1,17 @@
-const headers = $request.headers || {};
+console.log("ChataiToken script executed");
+
+const headers = $request && $request.headers ? $request.headers : {};
 
 let auth =
   headers.Authorization ||
   headers.authorization;
 
-console.log("[ChataiToken] headers => " + JSON.stringify(headers));
+console.log("headers:", JSON.stringify(headers));
 
 if (auth) {
   auth = auth.replace(/^Bearer\s+/i, "");
 
-  console.log("[ChataiToken] token => " + auth);
+  console.log("token:", auth);
 
   $notification.post(
     "Chatai Token",
@@ -17,7 +19,7 @@ if (auth) {
     auth
   );
 } else {
-  console.log("[ChataiToken] 未找到 Authorization");
+  console.log("no Authorization header");
 }
 
 $done({});
