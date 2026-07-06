@@ -1,18 +1,23 @@
-const headers = $request.headers;
+const headers = $request.headers || {};
 
 let auth =
-    headers.Authorization ||
-    headers.authorization;
+  headers.Authorization ||
+  headers.authorization;
+
+console.log("[ChataiToken] headers => " + JSON.stringify(headers));
 
 if (auth) {
-    // 去掉 Bearer 前缀
-    auth = auth.replace(/^Bearer\s+/i, "");
+  auth = auth.replace(/^Bearer\s+/i, "");
 
-    $notification.post(
-        "Chatai Token",
-        "已获取 Authorization",
-        auth
-    );
+  console.log("[ChataiToken] token => " + auth);
+
+  $notification.post(
+    "Chatai Token",
+    "获取成功",
+    auth
+  );
+} else {
+  console.log("[ChataiToken] 未找到 Authorization");
 }
 
 $done({});

@@ -12,4 +12,4 @@ DOMAIN,api.chatai.best,PROXY
 http-request ^https:\/\/api\.chatai\.best\/v1\/ime\/completions script-path=https://raw.githubusercontent.com/CangWeiohh/Network-Rule/main/Script/loginputx_chatai_token.js,tag=落格AI问答Token,enable=true
 
 [MITM]
-hostname = api.chatai.best
+hostname=api.chatai.best
