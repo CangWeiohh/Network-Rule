@@ -1,6 +1,7 @@
 #!name=iOS Location Spoofer
 #!desc=拦截 Apple 定位服务回传的坐标并置换为指定位置（Loon 插件）
 #!homepage=https://github.com/kun775/ios-location-spoofer
+#!icon=https://maps.apple.com.cn/static/maps-app-web-client/images/maps-app-icon-120x120.png
 
 # Loon 插件参数必须用 argument=[{参数名},...] 格式，字符串 {latitude} 占位符不会生效
 # 插件 UI 里的经纬度是备用值；填 configHost+configToken 后以 loc.json 为准（UI 不会变）
